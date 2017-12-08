@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		A5E7E0E21FDB023000CE5A70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E7E0E11FDB023000CE5A70 /* AppDelegate.swift */; };
-		A5E7E0E41FDB023000CE5A70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E7E0E31FDB023000CE5A70 /* ViewController.swift */; };
 		A5E7E0E71FDB023000CE5A70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E7E0E51FDB023000CE5A70 /* Main.storyboard */; };
 		A5E7E0EA1FDB023000CE5A70 /* OpenLibraryW3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5E7E0E81FDB023000CE5A70 /* OpenLibraryW3.xcdatamodeld */; };
 		A5E7E0EC1FDB023000CE5A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E7E0EB1FDB023000CE5A70 /* Assets.xcassets */; };
 		A5E7E0EF1FDB023000CE5A70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E7E0ED1FDB023000CE5A70 /* LaunchScreen.storyboard */; };
+		A5E7E0F91FDB117900CE5A70 /* ISBNTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E7E0F81FDB117900CE5A70 /* ISBNTableViewController.swift */; };
+		A5E7E0FD1FDB152D00CE5A70 /* ISBNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E7E0FC1FDB152D00CE5A70 /* ISBNViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A5E7E0DE1FDB023000CE5A70 /* OpenLibraryW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenLibraryW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E7E0E11FDB023000CE5A70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A5E7E0E31FDB023000CE5A70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A5E7E0E61FDB023000CE5A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5E7E0E91FDB023000CE5A70 /* OpenLibraryW3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OpenLibraryW3.xcdatamodel; sourceTree = "<group>"; };
 		A5E7E0EB1FDB023000CE5A70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5E7E0EE1FDB023000CE5A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5E7E0F01FDB023000CE5A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5E7E0F81FDB117900CE5A70 /* ISBNTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISBNTableViewController.swift; sourceTree = "<group>"; };
+		A5E7E0FC1FDB152D00CE5A70 /* ISBNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISBNViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				A5E7E0E11FDB023000CE5A70 /* AppDelegate.swift */,
-				A5E7E0E31FDB023000CE5A70 /* ViewController.swift */,
 				A5E7E0E51FDB023000CE5A70 /* Main.storyboard */,
 				A5E7E0EB1FDB023000CE5A70 /* Assets.xcassets */,
 				A5E7E0ED1FDB023000CE5A70 /* LaunchScreen.storyboard */,
 				A5E7E0F01FDB023000CE5A70 /* Info.plist */,
 				A5E7E0E81FDB023000CE5A70 /* OpenLibraryW3.xcdatamodeld */,
+				A5E7E0F81FDB117900CE5A70 /* ISBNTableViewController.swift */,
+				A5E7E0FC1FDB152D00CE5A70 /* ISBNViewController.swift */,
 			);
 			path = OpenLibraryW3;
 			sourceTree = "<group>";
@@ -139,9 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5E7E0E41FDB023000CE5A70 /* ViewController.swift in Sources */,
 				A5E7E0E21FDB023000CE5A70 /* AppDelegate.swift in Sources */,
 				A5E7E0EA1FDB023000CE5A70 /* OpenLibraryW3.xcdatamodeld in Sources */,
+				A5E7E0FD1FDB152D00CE5A70 /* ISBNViewController.swift in Sources */,
+				A5E7E0F91FDB117900CE5A70 /* ISBNTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
